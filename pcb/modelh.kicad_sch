@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Model K")
-		(date "2025-05-13")
-		(rev "0.3.1")
+		(date "2025-05-20")
+		(rev "0.4")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
@@ -2506,192 +2506,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2863,6 +2677,263 @@
 			(symbol "MountingHole_Pad_1_1"
 				(pin input line
 					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TestPoint_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1_1"
+				(pin passive line
+					(at 0 0 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -4023,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 57.15) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062cbc80-4b85-4bc3-aae7-93df13f23133")
+	)
+	(wire
+		(pts
 			(xy 134.62 41.91) (xy 134.62 43.18)
 		)
 		(stroke
@@ -4053,7 +4134,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 57.15) (xy 101.6 58.42)
+			(xy 102.87 57.15) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5163,7 +5244,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 57.15) (xy 101.6 57.15)
+			(xy 101.6 57.15) (xy 102.87 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5390,16 +5471,6 @@
 			(type default)
 		)
 		(uuid "cfa54461-5cc4-4d1e-9fd4-6d6d810de828")
-	)
-	(wire
-		(pts
-			(xy 90.17 57.15) (xy 92.71 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a5bd0b-4b02-4ede-b81a-1807892c1a65")
 	)
 	(wire
 		(pts
@@ -11807,6 +11878,42 @@
 			"AGYAAABoAAAAWgAAAG4AAABXAAAANAAAADgAAAB3AAAAWAAAADcAAABpAAAAQgAAAEEAAAB5AAAA"
 			"TwAAAEQAAABpAAAAWQAAAGwAAABwAAAAYQAAAG0AAABWAAAAQwAAAG8AAABIAAAAQgAAAHcAAABl"
 			"AAAAcAAAAEIAAABvAAAAagAAAE0AAABZAAAASQAAAFYAAABDAAAAUQAAAFIAAABQAAAANgAAAFIA"
+			"AAArAAAAOQAAADUAAAA2AAAANgAAADIAAAAzAAAAagAAAGgAAAB3AAAANQAAAG8AAABsAAAAQQAA"
+			"AG8AAABRAAAAcQAAAEcAAABRAAAAMAAAAFcAAABnAAAARQAAAHcAAABTAAAAQwAAAEMAAABIAAAA"
+			"RAAAAEUAAABuAAAAQQAAAHcAAABNAAAARAAAAHUAAAAzAAAAYgAAAHQAAABRAAAAZwAAADcAAABo"
+			"AAAAKwAAAFAAAABIAAAAagAAAEkAAAA1AAAARQAAAEkAAABBAAAAaQAAAEIAAABoAAAAMgAAAHgA"
+			"AABJAAAARQAAAEEAAABmAAAARgAAAEwAAABPAAAARgAAAC8AAABBAAAAcQAAACsAAAArAAAAKwAA"
+			"ACsAAAArAAAANwAAAHQAAAAyAAAANwAAAGYAAABEAAAASAAAAEgAAABiAAAAcQAAADEAAABLAAAA"
+			"bgAAAFMAAAAwAAAAbAAAAEsAAABkAAAAVAAAAGwAAABkAAAAWAAAAFYAAAA3AAAAZAAAAHgAAAA0"
+			"AAAAMAAAAFkAAABjAAAARQAAADQAAABKAAAAWQAAACsAAABIAAAAdAAAADAAAAA0AAAAUQAAAFkA"
+			"AABtAAAAawAAAHcAAABsAAAAUgAAAHUAAABFAAAAYQAAAGoAAABjAAAAZgAAAG4AAAB5AAAANQAA"
+			"AGMAAABGAAAAZwAAAGMAAABOAAAAdQAAADIAAABiAAAAUgAAAEMAAABsAAAARQAAAFAAAABFAAAA"
+			"SQAAADYAAAA1AAAANQAAAGUAAAByAAAAMgAAADkAAAB2AAAAYgAAAHoAAABlAAAAWgAAAFQAAABQ"
+			"AAAARgAAADQAAAB2AAAASwAAAFcAAABsAAAAcAAAAGIAAABxAAAANgAAACsAAABxAAAAcQAAAHIA"
+			"AAByAAAAdQAAAHIAAABwAAAANgAAAFkAAABGAAAAcAAAADMAAABPAAAAUAAAAHgAAABkAAAASAAA"
+			"AFoAAAAyAAAAMAAAAGcAAABxAAAASwAAAFAAAABwAAAALwAAAHYAAAB5AAAAUwAAAGUAAABmAAAA"
+			"WAAAAEwAAABkAAAAdQAAAEgAAABiAAAAWQAAAGsAAABZAAAAagAAADYAAABmAAAAZgAAAC8AAAA3"
+			"AAAANQAAAGYAAABmAAAAdgAAADIAAABFAAAAYgAAAEYAAAA0AAAATQAAAGEAAABLAAAARwAAAGkA"
+			"AABNAAAAaAAAAGoAAABkAAAAKwAAAHoAAABZAAAAVQAAAFYAAABKAAAAUwAAAFUAAABsAAAAQgAA"
+			"AFEAAABnAAAARgAAAHcAAABtAAAAaAAAAEgAAABJAAAAUgAAADAAAABRAAAALwAAADIAAAArAAAA"
+			"dQAAAHUAAAB2AAAAUAAAAC8AAAB2AAAAcwAAAHMAAAA5AAAAMwAAAGQAAAAzAAAAWgAAAGcAAABa"
+			"AAAAZwAAADgAAABIAAAAdwAAADEAAABsAAAAdAAAAHYAAAAvAAAAZQAAAFUAAAB2AAAAZgAAAHkA"
+			"AABrAAAAcgAAAEsAAAA0AAAAdQAAAEsAAABsAAAANgAAAEoAAABnAAAAbwAAAHkAAABVAAAAMwAA"
+			"AGMAAAArAAAAaAAAADAAAAB1AAAAdgAAAG4AAAB6AAAANQAAAC8AAAAvAAAAZwAAAEIAAAB6AAAA"
+			"KwAAAFkAAABNAAAARwAAAEUAAABDAAAAdgAAAHUAAABuAAAAdQAAADcAAAB1AAAANwAAAG8AAAA2"
+			"AAAARQAAAEEAAAA4AAAARwAAADMAAABTAAAARAAAAG4AAAAvAAAALwAAADgAAAA1AAAANQAAADkA"
+			"AAA4AAAAOAAAAGsAAABsAAAAZgAAAFgAAAB4AAAAOQAAAGsAAABCAAAAcQAAAFMAAABXAAAARQAA"
+			"AFQAAABFAAAAdgAAAEMAAABFAAAANwAAADcAAABCAAAASQAAAHEAAABpAAAAWAAAAEIAAABTAAAA"
+			"UgAAADQAAABRAAAATQAAAEQAAABBAAAAegAAAGcAAABVAAAAOAAAAEsAAABmAAAAKwAAAC8AAABu"
+			"AAAANgAAADcAAAAzAAAAVQAAADUAAABFAAAAWAAAAHgAAABEAAAATAAAAHMAAABqAAAALwAAADUA"
+			"AAB5AAAAVQAAAC8AAABlAAAAZQAAAHUAAABzAAAAdAAAAGsAAABFAAAAZAAAAG4AAABaAAAAMgAA"
+			"AGQAAABXAAAAVgAAAHAAAABiAAAAVgAAAGEAAABpAAAAMAAAAHUAAABMAAAAdAAAADYAAAB6AAAA"
+			"WgAAADQAAAAvAAAAVgAAAGEAAABxAAAAVgAAAE4AAABqAAAAVwAAAEkAAAAxAAAAdgAAAHkAAABI"
+			"AAAAKwAAAGEAAABRAAAAcQAAAEEAAABVAAAAcQAAAGwAAAAwAAAATwAAAEIAAAB5AAAATAAAAEYA"
+			"AAB5AAAAOQAAAGUAAAB1AAAAbgAAAFEAAABwAAAAaQAAAEsAAABDAAAAcQAAAHEAAAB1AAAAcgAA"
+			"ADYAAAA2AAAANgAAAC8AAAAvAAAAMgAAADkAAAAvAAAAKwAAAEIAAABsAAAAZAAAAHYAAABLAAAA"
+			"QgAAAFMAAABDAAAAUgAAAHkAAAA4AAAAUQAAAEMAAABIAAAAQQAAAGMAAAB0AAAAMwAAAGYAAAB2"
+			"AAAAMwAAAHYAAAByAAAANgAAAGUAAABvAAAAVAAAAFkAAABIAAAAagAAADkAAAArAAAAdgAAAEsA"
 			"AAArAA=="
 		)
 	)
@@ -13479,7 +13586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e891730")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 262.382 148.7932 0)
 			(effects
 				(font
@@ -13539,7 +13646,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13554,7 +13661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e91ffa8")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 228.6 144.78 90)
 			(effects
 				(font
@@ -13615,7 +13722,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13630,7 +13737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e920dcc")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 228.6 147.32 90)
 			(effects
 				(font
@@ -13691,7 +13798,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13706,7 +13813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e923217")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 228.6 152.4 90)
 			(effects
 				(font
@@ -13767,7 +13874,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13782,7 +13889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f267cbd")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR010"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -13832,7 +13939,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR0111")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13847,7 +13954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f673091")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 262.382 123.3932 0)
 			(effects
 				(font
@@ -13931,13 +14038,14 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
 		(at 134.62 58.42 180)
 		(unit 1)
@@ -13945,14 +14053,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "02eceda3-8185-48e8-9028-15d2b3e0d3c9")
 		(property "Reference" "TP1"
-			(at 133.096 63.754 0)
+			(at 131.318 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
@@ -13962,9 +14072,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Library:TestPoint"
 			(at 129.54 58.42 0)
 			(effects
 				(font
@@ -14255,7 +14366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13fe7f47-a106-43c1-b707-35d62f2fe4ce")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR013"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -14305,7 +14416,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR020")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14493,12 +14604,13 @@
 		(dnp no)
 		(uuid "263765cc-8f5f-4d99-b1b2-32cb36d2668b")
 		(property "Reference" "TP2"
-			(at 139.446 63.754 0)
+			(at 137.16 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "MOSI"
@@ -14508,9 +14620,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -14636,6 +14749,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 96.52 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28741afe-74e7-4535-bc5d-16f2c92fc2ed")
+		(property "Reference" "SW1"
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_reset"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ed4f634-acd7-4896-962f-428d806dce94")
+		)
+		(pin "1"
+			(uuid "96309319-3d53-40e4-8f00-6ee14b2a6ffc")
+		)
+		(instances
+			(project ""
+				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 250.19 66.04 180)
 		(unit 1)
@@ -14730,7 +14912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c9f286a-7074-4a6b-b9d9-fd17d3807b65")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 76.2 160.02 0)
 			(effects
 				(font
@@ -14780,7 +14962,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14967,7 +15149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "427226ba-286b-48e9-bdbc-8636a947ba6b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 97.79 147.32 0)
 			(effects
 				(font
@@ -15017,7 +15199,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15118,7 +15300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc1699b-bdca-4e3f-b791-0d216edc54cd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -15168,7 +15350,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15269,7 +15451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54ecec0a-61d8-42aa-9c6d-0a9db48fc5a8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR020"
 			(at 53.34 185.42 0)
 			(effects
 				(font
@@ -15319,7 +15501,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15334,7 +15516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56550223-880e-4d0f-b6e8-4f5c1dafca02")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 73.66 46.99 0)
 			(effects
 				(font
@@ -15384,7 +15566,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15392,15 +15574,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 58.42 0)
+		(at 102.87 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "575bff35-f54d-40d1-98eb-1aae8386c502")
-		(property "Reference" "#PWR017"
-			(at 101.6 64.77 0)
+		(property "Reference" "#PWR06"
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15409,7 +15591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.727 62.8142 0)
+			(at 102.997 62.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +15599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 58.42 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +15608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +15617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 58.42 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15631,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15636,7 +15818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d3aa024-12f1-4da7-801a-d44ffea2f975")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -15686,7 +15868,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16118,7 +16300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77ea20d0-36f3-412a-9a33-a352f7badab4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 86.36 172.72 0)
 			(effects
 				(font
@@ -16168,7 +16350,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16457,7 +16639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86f6d335-3d7c-4405-b3aa-bd9063cf7ef4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 120.65 160.02 0)
 			(effects
 				(font
@@ -16507,7 +16689,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16695,12 +16877,13 @@
 		(dnp no)
 		(uuid "9d182ae8-f09e-4fb7-bcc6-39dac6e2f847")
 		(property "Reference" "TP3"
-			(at 143.256 63.754 0)
+			(at 140.97 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "SCLK"
@@ -16710,9 +16893,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -16826,12 +17010,13 @@
 		(dnp no)
 		(uuid "aed007e6-c362-439b-98bd-91078e0a5d67")
 		(property "Reference" "TP4"
-			(at 147.066 63.754 0)
+			(at 147.066 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "CS"
@@ -16841,9 +17026,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint"
 			(at 143.51 58.42 0)
 			(effects
 				(font
@@ -16891,7 +17077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3a12ce6-92de-4018-918a-fd905bf396ad")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 29.21 158.75 0)
 			(effects
 				(font
@@ -16941,7 +17127,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17204,7 +17390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdb10662-d26d-486e-b44a-d18cf02932fd")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -17254,7 +17440,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17269,7 +17455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bed3c8b1-ca0d-4724-86c2-e9df3a346013")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -17319,74 +17505,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 96.52 57.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c67fc4ef-1b73-414f-869f-df33525dcf8c")
-		(property "Reference" "JP5"
-			(at 95.25 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Reset jumper"
-			(at 95.25 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e4dc59-5c1a-4068-9a7e-a0927b292978")
-		)
-		(pin "2"
-			(uuid "9a1ce295-5934-4888-89c7-66fc93664749")
-		)
-		(instances
-			(project ""
-				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "JP5")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -17399,10 +17518,10 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76005ac-9e3d-46ba-8d54-df4483eda188")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 153.67 93.9799 0)
 			(effects
 				(font
@@ -17468,7 +17587,7 @@
 		(instances
 			(project ""
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17483,7 +17602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c91c52e3-d3c0-4891-8121-0cc9baab101f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -17533,7 +17652,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17549,7 +17668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbd4adf1-89b6-4c6b-9de3-1163150d2aea")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -17599,7 +17718,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17614,7 +17733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc764780-2854-4686-b3c6-994648876755")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -17664,7 +17783,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17765,7 +17884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddcba20d-215c-461c-9227-632bce7246c7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR05"
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -17815,7 +17934,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR022")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17830,7 +17949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de1d9d50-67c5-4d7e-8697-37c6df1f0c5d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR021"
 			(at 97.79 185.42 0)
 			(effects
 				(font
@@ -17880,7 +17999,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17895,7 +18014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4644d68-7b88-451d-a339-eac1052367e0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 41.91 172.72 0)
 			(effects
 				(font
@@ -17945,7 +18064,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17960,7 +18079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8ad1578-8ba6-48d5-bcd7-f1bb96d9b08a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 142.24 185.42 0)
 			(effects
 				(font
@@ -18010,7 +18129,7 @@
 		(instances
 			(project "modelh"
 				(path "/076b8a3b-b6a5-43e0-869d-187fc0ef2c0c"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
