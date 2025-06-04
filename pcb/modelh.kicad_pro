@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 1.0922,
+          "height": 1.7526,
+          "width": 1.7526
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -131,7 +131,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.0005,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -197,8 +197,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.3
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -589,7 +588,7 @@
       "netlist": "modelh.net",
       "plot": "gerber/",
       "pos_files": "",
-      "specctra_dsn": "../../../../tmp/modelh.dsn",
+      "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""

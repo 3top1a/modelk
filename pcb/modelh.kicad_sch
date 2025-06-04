@@ -15169,7 +15169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://42keebs.eu/shop/parts/components/reset-switch/?attribute_type=Through-hole%202-pin%206x3&attribute_pa_colour=black"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -17099,7 +17099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED2"
+		(property "Value" "LED1"
 			(at 148.59 67.564 0)
 			(effects
 				(font
@@ -17983,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED0"
 			(at 145.288 65.532 0)
 			(effects
 				(font
@@ -18415,7 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED3"
+		(property "Value" "LED2"
 			(at 153.67 65.786 0)
 			(effects
 				(font
