@@ -3900,9 +3900,9 @@
 		)
 		(uuid "6b9b759f-d44f-4a63-8a4d-a4bddf049ff8")
 	)
-	(text "Keyboard Matrix"
+	(text "Keyboard Matrix - link"
 		(exclude_from_sim no)
-		(at 217.17 59.69 0)
+		(at 215.265 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3944,13 +3944,14 @@
 		)
 		(uuid "a10beb24-da5a-452f-80b8-31fd557bb8e2")
 	)
-	(text "TE Connectivity Trio-mate connectors"
+	(text "TE Connectivity Trio-mate connectors\nCan be replaced with Connfly FFC/FPC"
 		(exclude_from_sim no)
-		(at 217.17 35.814 0)
+		(at 198.12 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "d02cb693-dd34-4a7f-be3f-68e1eb5f35be")
 	)
@@ -5911,7 +5912,7 @@
 		(uuid "fc379178-65c0-4fb3-8242-454540327852")
 	)
 	(image
-		(at 215.646 47.498)
+		(at 215.773 55.626)
 		(scale 0.377794)
 		(uuid "554973f1-b653-4375-bcfd-e508c7ec9bcc")
 		(data "iVBORw0KGgoAAAANSUhEUgAABAAAAAI7CAIAAAD9En6AAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
