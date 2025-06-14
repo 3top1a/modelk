@@ -1,4 +1,4 @@
-(footprint "ModelH-triomate-rows8"
+(footprint "ffc-rows8"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ModelH-triomate-rows8"
+	(property "Value" "ffc-rows8"
 		(at -0.05 -2.6 0)
 		(layer "F.Fab")
 		(uuid "36c14841-9a91-40bb-a656-89af1f519133")
