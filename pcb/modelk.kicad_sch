@@ -667,23 +667,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J1"
+				(at 0 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "JST-PH connector"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -791,7 +791,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
@@ -809,7 +809,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -3367,14 +3367,6 @@
 						(type background)
 					)
 				)
-				(text private "Pins from https://nicekeyboards.com/static/511ae101870d00c265b84f35d5f39eda/3c492/schematic_nice_nano_v2.png"
-					(at -32.512 1.27 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(text "◺ High Frequency"
 					(at -0.254 -14.732 0)
 					(effects
@@ -3563,7 +3555,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -2.54 -26.67 90)
 					(length 5.08)
 					(name "GND"
@@ -3599,7 +3591,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -26.67 90)
 					(length 5.08)
 					(name "GND"
@@ -3635,7 +3627,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 2.54 -26.67 90)
 					(length 5.08)
 					(name "GND"
@@ -13929,6 +13921,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAoTYAAAAAAACgVvVKAAAAADBHHUsAAAAAAAAAAAAAAAAAAAAAAAAAABBK"
+			"9vNnfwAAFdzGQyRaT+aa3ncTfaXM9jAAAAAAAAAAMFrvSgAAAAAAAAAAzAMAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACD19EoAAAAAIPX0SgAAAAAAAAAA"
+			"AAAAAHj19EoAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAC49fRKAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAMhD8PNnfwAA2PX0SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAkHW682d/AACQDu9KAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAFAN00sAAAAA"
+			"BgAAAAAAAAAAZNVRAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAHj29EoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAND29EoAAAAA0Pb0SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -15269,7 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:ModelH-triomate-leds4"
+		(property "Footprint" "Library:ffc-leds4"
 			(at 275.59 142.24 0)
 			(effects
 				(font
@@ -15638,7 +15648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:ModelH-triomate-rows12"
+		(property "Footprint" "Library:ffc-rows12"
 			(at 274.32 105.41 0)
 			(effects
 				(font
@@ -17064,7 +17074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:ModelH-triomate-rows8"
+		(property "Footprint" "Library:ffc-rows8"
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -17806,7 +17816,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 132.08 34.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -18049,7 +18059,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 121.92 34.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -18292,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:ModelH-triomate-cols20"
+		(property "Footprint" "Library:ffc-cols20"
 			(at 274.32 54.61 0)
 			(effects
 				(font
@@ -18392,7 +18402,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 143.51 33.02 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -19013,7 +19023,7 @@
 			)
 		)
 		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
-			(at 99.06 132.08 90)
+			(at 72.39 30.226 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20121,7 +20131,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 143.51 39.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)

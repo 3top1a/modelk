@@ -1,0 +1,10 @@
+outputs:
+  - name: 'model.step'
+    comment: 'Renders - 3D model (STEP)'
+    type: export_3d
+    dir: cad
+    options:
+      format: step
+      metric_units: true
+      download: true
+
