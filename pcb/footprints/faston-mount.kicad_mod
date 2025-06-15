@@ -59,10 +59,10 @@
 		(end 4 1.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "6fc1ee0a-7fdc-482f-b84a-04441386d0d0")
 	)
 	(fp_text user "${REFERENCE}"
