@@ -181,32 +181,6 @@
 		(layer "F.CrtYd")
 		(uuid "6b4b3bc1-9e06-4269-9fa6-29694f6e7a49")
 	)
-	(pad "" np_thru_hole custom
-		(at -5.1 -0.1 270)
-		(size 2 0.1)
-		(drill oval 2.9 0.7)
-		(layers "*.Mask")
-		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "7b08b105-0ee7-4e81-8056-edbd6a51638a")
-	)
-	(pad "" np_thru_hole custom
-		(at 5.1 -0.1 90)
-		(size 2 0.1)
-		(drill oval 2.9 0.7)
-		(layers "*.Mask")
-		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "1b5f9d65-9ff6-4c2a-84b3-786d00fe19f7")
-	)
 	(pad "1" thru_hole circle
 		(at -3.81 0)
 		(size 2 2)
