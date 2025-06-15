@@ -144,7 +144,7 @@ jobs:
       - name: Extract and organize files
         run: |
           # Copy schematic PDF
-          cp arts/modelk-schematic.pdf pcb/autogen/schematic.pdf
+          cp arts/modelk-schematic.* pcb/autogen/
 
           # Copy iBOM
           cp arts/bom/modelk-ibom.html pcb/autogen/ibom.html
@@ -163,6 +163,5 @@ jobs:
         with:
           add: "pcb/autogen/ --force"
           default_author: github_actions
-          message: "Update PCB artifacts from KiBot [skip ci]"
-          pull: "--rebase --autostash"
-          pathspec_error_handling: exitImmediately
+          message: "Update PCB artifacts from KiBot"
+          new_branch: pcb-artifacts
