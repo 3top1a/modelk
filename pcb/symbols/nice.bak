@@ -64,14 +64,6 @@
 					(type background)
 				)
 			)
-			(text private "Pins from https://nicekeyboards.com/static/511ae101870d00c265b84f35d5f39eda/3c492/schematic_nice_nano_v2.png"
-				(at -32.512 1.27 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(text "◺ High Frequency"
 				(at -0.254 -14.732 0)
 				(effects
@@ -260,7 +252,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -2.54 -26.67 90)
 				(length 5.08)
 				(name "GND"

@@ -2,4 +2,5 @@ pcb/modelk-backups
 .venv
 *.lck
 fp-info-cache
+pcb/autogen
 
