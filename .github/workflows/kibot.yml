@@ -131,6 +131,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: "pcb-artifacts"
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
