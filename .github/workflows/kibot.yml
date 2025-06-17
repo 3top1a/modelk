@@ -165,4 +165,4 @@ jobs:
           default_author: github_actions
           message: "Update PCB artifacts from KiBot"
           new_branch: pcb-artifacts
-          push: origin pcb-artifacts --force --set-upstream # force is probably fine, it's separate
+          push: origin pcb-artifacts # force is probably fine, it's separate
