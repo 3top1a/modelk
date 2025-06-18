@@ -14608,14 +14608,14 @@
 	(footprint "kibuzzard-684FF5A3"
 		(layer "F.Cu")
 		(uuid "f14f97e9-6f75-44f5-911d-c24cc7d2c3ed")
-		(at 206.770004 49.990006)
+		(at 209.115148 50.190006)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiPCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6IDEuMCwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjAsICJNdWx0aUxpbmVUZXh0IjogIjEyMiIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDEuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDEuMCwgIlBhZGRpbmdSaWdodEN0cmwiOiAxLjAsICJQYWRkaW5nVG9wQ3RybCI6IDEuMCwgIldpZHRoQ3RybCI6IDEuMCwgImFkdmFuY2VkQ2hlY2tib3giOiBmYWxzZSwgImlubGluZUZvcm1hdFRleHRib3giOiBmYWxzZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-684FF5A3"
 			(at 0 -3.693934 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0a4545ef-03f2-4016-a471-6359a46b5ee1")
+			(uuid "06a3b8f1-b799-4e1e-959f-9c8f6793afd7")
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -14627,7 +14627,7 @@
 			(at 0 3.693934 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2282f764-6879-48e8-92bc-96f6cea7fcd9")
+			(uuid "a63fd948-a4aa-41eb-9a59-6529340698d3")
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -14639,7 +14639,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d81e7afb-f55a-446c-9a3d-86ab3d9e73c0")
+			(uuid "74f766ee-1c20-4590-b3e3-9be148df41fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14651,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d4c2c40-052b-498b-98d4-bcfee248c5c9")
+			(uuid "9768fc8f-c9c7-4913-bab8-c459f80b6af2")
 			(effects
 				(font
 					(size 1.27 1.27)
