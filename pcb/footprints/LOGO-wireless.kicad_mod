@@ -1,0 +1,93 @@
+(footprint "LOGO-wireless"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eda5012e-3bb4-4899-a048-c4f1f4ae71e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LOGO-wireless"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0200645-c3a2-4f30-80bd-131b7908cb95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d0092b1-7234-4e80-b224-d8e0841a2a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cc866ff-9ce4-4fda-beff-8936852ead76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -1.414214 1.414213)
+		(mid -2 0)
+		(end -1.414214 -1.414214)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac8c3b74-f5ea-4374-9ab5-153787ee2a52")
+	)
+	(fp_arc
+		(start -0.707106 0.707106)
+		(mid -0.999999 0)
+		(end -0.707106 -0.707107)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f863d1a6-c728-4373-92f9-f4ec58794ed6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "727e63ce-9291-4ad7-a786-5f359d23e77f")
+	)
+	(embedded_fonts no)
+)
