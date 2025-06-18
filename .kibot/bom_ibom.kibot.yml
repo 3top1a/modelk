@@ -6,7 +6,7 @@ outputs:
     options:
       # [string=''] List of comma separated blacklisted components or prefixes with *. E.g. 'X1,MH*'.
       # IBoM option, avoid using in conjunction with KiBot variants/filters
-      blacklist: ''
+      blacklist: 'LOGO*'
       # [boolean=false] Blacklist components with empty value.
       # IBoM option, avoid using in conjunction with KiBot variants/filters
       blacklist_empty_val: false
