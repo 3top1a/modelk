@@ -114,7 +114,7 @@ jobs:
       - name: run kibot
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s erc,drc -v \
-            board_black_top.svg board_black_bottom.svg enig_green_top.svg enig_green_bottom.svg
+            board_black_top.svg board_black_bottom.svg enig_green_top.svg enig_green_bottom.svg enig_green_top.png enig_green_bottom.png
       - uses: actions/upload-artifact@v4
         if: ${{success()}}
         with:
@@ -151,9 +151,11 @@ jobs:
           # Copy iBOM
           cp arts/bom/modelk-ibom.html pcb/autogen/ibom.html
 
-          # Copy PCB SVG renders
+          # Copy PCB renders
           cp arts/pcb/jlcpcb/green_enig/modelk-top.svg pcb/autogen/top.svg
           cp arts/pcb/jlcpcb/green_enig/modelk-bottom.svg pcb/autogen/bottom.svg
+          cp arts/pcb/jlcpcb/green_enig/modelk-top.png pcb/autogen/top.png
+          cp arts/pcb/jlcpcb/green_enig/modelk-bottom.png pcb/autogen/bottom.png
 
           # Copy JLCPCB zip
           cp arts/JLCPCB/modelk-JLCPCB.zip pcb/autogen/jlcpcb.zip
