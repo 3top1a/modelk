@@ -57,7 +57,20 @@ TODO
 
 ## Software
 
-For now, see the [modelk-zmk](https://github.com/3top1a/modelk-zmk) repository for the ZMK firmware.
+For now, see the [modelk-zmk](https://github.com/3top1a/modelk-zmk) repository for the ZMK firmware. Might get merged into this repository.
+
+Instalation:
+
+- Download the latest firmware from the modelk-zmk [CI/CD builds](https://github.com/3top1a/modelk-zmk/actions/workflows/build.yml)
+- Connect your nice!nano via USB
+- Double-tap the reset button to enter bootloader mode (the little blue light should stay on)
+- Your computer will detect a USB drive
+- Drag and drop the firmware file (.uf2) onto this drive
+- The nice!nano will disconect itself once the process is complete
+- Enjoy a working wireless Model M!
+
+My default, right alt switches to a function layer, where escape toggles USB/BT and F1-F3 toggles BT profiles and F6-F8 controls multimedia.
+You can, of course, completely redesign the layout.
 
 [^batery]: currently ~2 weeks on a 400mAh battery with revision 0.3.1, will be better on newer boards
 
