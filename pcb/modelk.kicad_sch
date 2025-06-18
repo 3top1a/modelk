@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Model K")
-		(date "2025-06-15")
-		(rev "0.9")
+		(date "2025-06-18")
+		(rev "0.10")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
@@ -14034,7 +14034,25 @@
 			"AEQAAABBAAAAYQAAAFIAAABrAAAANQAAADEAAABrAAAAdgAAAEQAAABEAAAAYgAAAGMAAAB4AAAA"
 			"eQAAAEgAAAAyAAAAZQAAAHYAAABxAAAANgAAAHYAAABKAAAANAAAAFAAAABIAAAAYQAAADcAAABu"
 			"AAAAVgAAAFkAAABnAAAAYQAAAFcAAAB4AAAAcwAAAEQAAABBAAAAUQAAAEMAAABaAAAAOAAAADYA"
-			"AABjAA=="
+			"AABjAAAAbgAAAFQAAABZAAAAOQAAAFAAAABUAAAAMgAAAFgAAABYAAAAWAAAAGIAAABaAAAAMwAA"
+			"AFgAAABmAAAAZgAAAHYAAABXAAAAYgAAAE4AAABHAAAAbwAAAFYAAABDAAAAMAAAAGQAAABQAAAA"
+			"VAAAAEEAAAB3AAAAYQAAAEMAAABXAAAARgAAAFAAAAA0AAAAWAAAAHUAAABpAAAAMAAAAGgAAABN"
+			"AAAAUAAAAGgAAABvAAAAYQAAAEcAAABoAAAAbwAAAHEAAABLAAAAaQAAAHAAAAA1AAAANQAAADYA"
+			"AABLAAAAaAAAAEEAAABJAAAAZQAAAEwAAAAxAAAAZQAAAGkAAAA4AAAAWAAAAFMAAAAzAAAAdAAA"
+			"ADUAAABlAAAAVQAAAFYAAABIAAAAeAAAAHoAAABEAAAAUAAAAFAAAABaAAAARwAAAFYAAABsAAAA"
+			"VQAAAFgAAABFAAAAZgAAAGUAAABpAAAAUAAAADcAAAAxAAAAYgAAAEoAAABkAAAANQAAAHcAAABt"
+			"AAAAZAAAAFQAAABnAAAAYwAAAEoAAABTAAAAcQAAAHYAAABWAAAAcAAAAHEAAABTAAAAawAAAGQA"
+			"AABIAAAAUgAAADAAAABEAAAAQQAAAHcAAABNAAAAQgAAAEEAAABLAAAAQgAAADcAAAB1AAAANwAA"
+			"AHUAAABqAAAASQAAAHcAAABNAAAAcgAAADkAAABjAAAATAAAAFAAAAB3AAAATQAAAGgAAABwAAAA"
+			"SwAAADYAAAB1AAAAVAAAAHEAAABWAAAAUwAAAHAAAABhAAAAVwAAAGwAAAA5AAAAZgAAAGYAAAAz"
+			"AAAAZAAAADMAAABWAAAAMQAAAHUAAABWAAAAeQAAAHUAAABVAAAAQwAAAGgAAABFAAAAdgAAAGEA"
+			"AABEAAAAVQAAAEsAAABjAAAAbwAAAHcAAABUAAAARQAAAFoAAABHAAAAUgAAAGwAAAA1AAAAZQAA"
+			"ADMAAABxAAAAcAAAAFYAAABxAAAAegAAAEkAAAB5AAAATQAAAGsAAABEAAAAVgAAAFoAAAByAAAA"
+			"UAAAAFoAAABZAAAAcgAAAEgAAABjAAAAZAAAAE4AAABOAAAATgAAAHQAAABIAAAAeAAAAEMAAABY"
+			"AAAAQwAAAHoAAABlAAAAUgAAAFEAAABoAAAAQgAAADQAAABHAAAASQAAAHMAAABGAAAAagAAAHQA"
+			"AAArAAAALwAAAFAAAABpAAAAMwAAAHYAAAAvAAAAMQAAAHQAAAB2AAAAVgAAADYAAABQAAAAeAAA"
+			"AEIAAAB0AAAAcwAAAEcAAABVAAAAUgAAAGQAAABQAAAAdgAAAG4AAABrAAAAawAAAHgAAABrAAAA"
+			"WgAAAA=="
 		)
 	)
 	(image
@@ -20808,7 +20826,25 @@
 			"QUFBQWFnQUFBRGtBQUFBckFBQUFkZ0FBQUVzQUFBQXJBQUFBVVFBQUFFa0FBQUJWQUFBQVVBQUFB"
 			"RWNBQUFCU0FBQUFVUUFBQUZJQUFBQmFBQUFBUVFBQUFGb0FBQUJCQUFBQWFBQUFBRkVBQUFBMEFB"
 			"QUFXUUFBQUUwQUFBQkhBQUFBVkFBQUFFb0FBQUJyQUFBQWVRQUFBRW9BQUFCQkFBQUFhQUFBQURR"
-			"QUFBQjVBQUFBU3dBQUFFTUFBQQ=="
+			"QUFBQjVBQUFBU3dBQUFFTUFBQUFvWm1PSm1nSUhJWUJKQkdCWW1DaVNYTS9rUmlIVXljU1JqNCt1"
+			"UXh6WXVlbnN6ZldkcjMzNVcrQlFsWldLMWZpd1hqdlBCQ3VzMWJFSWJoSis2d1A2T1YvcEJaQUtC"
+			"S0lmeUFGS0FiUE41b2QrN2ovcVJNUEI1NTRwVmd1Wkd6bWgrUW5yMngrRXJFWkVlakJFNWJMdWdE"
+			"dTB5akpvRVpGQW8xMFBoSmRlOCtiMW0xb0lHT1JGbGtRL25IVVVDSVNxekZmNnBJUXNUZXdNMDFI"
+			"RWdhcUVVakpEQmdJNHJybjh0VE1iWnVEUUVCbE9KSHlNMjM5VUlJNEVHSWFGRGlJMkp2R0JhOFVD"
+			"TU5FT2dGZS85aDN0NmVhNFkrdXQxclhYdlhrNEN0N1I2V2VkdjJYYjJWeFNwUGx0dDMrenNNbVJK"
+			"YnQrSnEwTXFnS1pRTVNiQ0lBOE5zaGZkdGwxamFsR05haEVvdHBSRFJFMlhieWpLaXZ1bEJsVmxy"
+			"RW9oclhhZXM0Wno2dTRQOUo1R2NkcXRSMllITXRqWE1XYk50YmY5THJ6NEpEMzg5TTI3Zm4xWC94"
+			"ZElzcWFtUmtZSFdjQTRnQUVITzJKMkE1aTIweDhlMEk0ZTNTZ2x0NVU3dld2ZU90clh4SVlKd2dV"
+			"dlZHVUpZbEFDTUVqY0pwUUFZMS9ZbEhyREdoWUt1ZWtDNUlUaUlNUnJNbDlRWFZhdDJmM3BqMjdM"
+			"aXRHUlpSRWNHanBEQllnUkNhUVBDYnJTZGZvZFRFb3VIZXlzbEJ5b3VJWkY2UWdIM0I0Zm43RHhn"
+			"M3YvTmtQTHEzMHBscjE0YUJNay9TWVcrM3hFODFNUW5pT2Rpc0hZdHVjVWh1NXJ6ZGtIUjROV1gv"
+			"enRlOVFTa0xnK2xlOEpWaVF4eVZuWEgzMXhhK2N5TGpFcjN2VlQ2YzFmY1hWVzRtREUyNTR5M3ZB"
+			"bTByQU81QklQYldOYjB3aVpJQ3FyQ0t0eExPWjc0N0FaUnFsRzJXMGprUTJYdTNXYjlyMTlwL2VK"
+			"UmxBR0F6TDRLMVN0ZDFuUE85M1AzeE9yVmFyVEZDQ2hzTWdHTDNvcGRjdUhPbklxRmxWbFZTaW44"
+			"dFJHU0drbzl4SGl0a0tTbVhYWHZHRzJmWXNBRGkwb3d4QVZwdDU1eHZlSzBtKzk2ZC9HUVE0L09Z"
+			"di96N2wwZmxuWDNiK2Y3cnNxVVBMbXplMUE3RGNSWnh0WW5MNlJ5ejU2cWdmbVFoNEZ2VUZOS1dK"
+			"cW12RkFBcXIyVlFxV3dtbWNOUTk3VGlWOEZrOGVnMXJlTTVqVFFGWXczTVpuaEJzS0lFSVlGblNM"
+			"SVlPWG5BUkFsRGx2VmhUVmNLVg=="
 		)
 	)
 	(label "row3"
@@ -22114,6 +22150,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.tme.eu/en/details/ds1020-04st1d/connectors-ffc-fpc-2-54mm/connfly/"
+			(at 275.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "bc58b4a8-1ba2-4186-9434-30bfded3db2f")
 		)
@@ -22187,7 +22232,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "CZ" "https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -22263,7 +22308,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "CZ" "https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -22339,7 +22384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "CZ" "https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -22475,6 +22520,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 274.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.tme.eu/en/details/ds1020-12st1d/connectors-ffc-fpc-2-54mm/connfly/0"
 			(at 274.32 105.41 0)
 			(effects
 				(font
@@ -22743,6 +22797,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13779462-af55-45c7-baa5-f17414d9e1d6")
 		)
@@ -22893,6 +22956,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 31.75 0)
 			(effects
 				(font
@@ -23053,6 +23125,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "667d69fe-c015-4fef-adb4-6f30bd3e776b")
 		)
@@ -23132,6 +23213,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 77.47 0)
 			(effects
 				(font
@@ -23227,6 +23317,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2881dc8e-37e2-4421-b8c7-c531a516b52b")
 		)
@@ -23288,6 +23387,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1500827/kls-ts3601-43-180-mikrospinac"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -23375,6 +23483,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 59.69 0)
 			(effects
 				(font
@@ -23535,6 +23652,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3faf1031-0028-45a1-b17c-115848ba88d7")
 		)
@@ -23614,6 +23740,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 44.45 0)
 			(effects
 				(font
@@ -23774,6 +23909,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4358099a-ee85-4a45-92ba-76de5a39fe25")
 		)
@@ -23909,6 +24053,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.tme.eu/en/details/ds1020-08st1d/connectors-ffc-fpc-2-54mm/connfly/"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "d3d168ab-f12c-4aea-87cd-e61c232f2d5e")
 		)
@@ -24006,6 +24159,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 34.29 0)
 			(effects
 				(font
@@ -24296,6 +24458,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6196e451-6b9a-4ad2-9a7f-de528a199811")
 		)
@@ -24375,6 +24546,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 72.39 0)
 			(effects
 				(font
@@ -24605,6 +24785,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41faf946-e71c-4018-b7d4-ea540edcc934")
 		)
@@ -24798,6 +24987,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 137.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1501627/kls-sokl-16-dip-patice ; https://pajenicko.cz/posuvny-registr-sn74hc595n-74hc595-8bit-dip16"
 			(at 137.16 158.75 0)
 			(effects
 				(font
@@ -25002,6 +25200,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe824f83-5203-4c42-9171-50f2b1d6c2d6")
 		)
@@ -25129,6 +25336,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 274.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.tme.eu/en/details/ds1020-20rt1d/connectors-ffc-fpc-2-54mm/connfly/"
 			(at 274.32 54.61 0)
 			(effects
 				(font
@@ -25342,6 +25558,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08d461ab-500e-4e0a-bbf2-7edfda6f9357")
 		)
@@ -25494,6 +25719,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bc4f37a-0a03-47b9-90e4-0b36fa6b683a")
 		)
@@ -25573,6 +25807,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 64.77 0)
 			(effects
 				(font
@@ -25763,7 +26006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gme.cz/v/1500147/dj6116-63x08-faston-do-dps-63mm"
+		(property "Datasheet" ""
 			(at 128.27 46.99 0)
 			(effects
 				(font
@@ -25773,6 +26016,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1500147/dj6116-63x08-faston-do-dps-63mm"
 			(at 128.27 46.99 0)
 			(effects
 				(font
@@ -25840,6 +26092,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://42keebs.eu/shop/parts/controllers/nice-nano-v2-wireless-controller/"
 			(at 64.77 66.04 0)
 			(effects
 				(font
@@ -25976,6 +26237,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 46.99 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1501627/kls-sokl-16-dip-patice ; https://pajenicko.cz/posuvny-registr-sn74hc595n-74hc595-8bit-dip16"
 			(at 46.99 158.75 0)
 			(effects
 				(font
@@ -26439,6 +26709,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e879384-6f2d-44c7-a779-a6ab6a02770d")
 		)
@@ -26704,6 +26983,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1501627/kls-sokl-16-dip-patice ; https://pajenicko.cz/posuvny-registr-sn74hc595n-74hc595-8bit-dip16"
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "63fc535a-fe80-45a1-a5b6-e2d409401a2e")
 		)
@@ -26833,6 +27121,15 @@
 				(hide yes)
 			)
 		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59d49d5c-2d77-474b-8032-06f5e3aaa147")
 		)
@@ -26912,6 +27209,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CZ" "https://www.gme.cz/v/1487018/semtech-1n4148-dioda"
 			(at 264.16 69.85 0)
 			(effects
 				(font
