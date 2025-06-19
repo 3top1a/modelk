@@ -13,7 +13,7 @@ The Model K is a custom replacement controller designed to add BLE wireless func
 
 <!-- TODO Supported keyboards, M122 not tested yet -->
 - Fully wireless with BLE (Bluetooth Low Energy)
-- Battery powered with two weeks+ of battery life[^batery]
+- Battery powered with 3+ weeks of battery life[^batery]
 - USB C for drag-and-drop programming, charging and wired use
 - Compatible with IBM Model M 101/102 layouts (122-key compatibility uncertain as I do not own one yet)[^models]
 - [Open source ZMK firmware](https://github.com/3top1a/modelk-zmk), with [CI/CD builds](https://github.com/3top1a/modelk-zmk/actions/workflows/build.yml)
@@ -72,6 +72,6 @@ Instalation:
 My default, right alt switches to a function layer, where escape toggles USB/BT and F1-F3 toggles BT profiles and F6-F8 controls multimedia.
 You can, of course, completely redesign the layout.
 
-[^batery]: currently ~2 weeks on a 400mAh battery with revision 0.3.1, will be better on newer boards
+[^batery]: currently ~3 weeks on a 400mAh battery with revision 0.3.1, will be better on newer boards
 
 [^models]: Tested on: 1386716
