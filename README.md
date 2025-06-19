@@ -61,7 +61,7 @@ For now, see the [modelk-zmk](https://github.com/3top1a/modelk-zmk) repository f
 
 Instalation:
 
-- Download the latest firmware from the modelk-zmk [CI/CD builds](https://github.com/3top1a/modelk-zmk/actions/workflows/build.yml)
+- Download firmware from the modelk-zmk [CI/CD builds](https://github.com/3top1a/modelk-zmk/actions/workflows/build.yml) ([or click here for the latest firmware](https://nightly.link/3top1a/modelk-zmk/workflows/build/master/firmware.zip))
 - Connect your nice!nano via USB
 - Double-tap the reset button to enter bootloader mode (the little blue light should stay on)
 - Your computer will detect a USB drive
