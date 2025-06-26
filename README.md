@@ -115,6 +115,10 @@ Installation:
 My default, right alt switches to a function layer, where escape toggles USB/BT and F1-F3 toggles BT profiles, F4 clears the current BT profile, and F6-F8 controls multimedia.
 You can, of course, completely redesign the layout.
 
+## Credits
+
+Huge kudos go to [John Hawthorn](https://www.johnhawthorn.com/) for his [Model H](https://modelh.club/) controller that inspired this project. This repo started as a fork, but now doesn't share any files.
+
 [^batery]: currently ~3 weeks on a 400mAh battery with revision 0.3.1, will be better on newer boards
 
 [^models]: Tested on: 1386716
