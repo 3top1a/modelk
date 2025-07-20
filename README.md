@@ -112,7 +112,7 @@ Installation:
 - The nice!nano will disconect itself once the process is complete
 - Enjoy a working wireless Model M!
 
-My default, right alt switches to a function layer, where escape toggles USB/BT and F1-F3 toggles BT profiles, F4 clears the current BT profile, F6-F8 controls multimedia, Print Screen unlocks ZMK Studio and **Pause reboots into bootloader for updating firmware**.
+By default, right alt switches to a function layer, where escape toggles USB/BT and F1-F3 toggles BT profiles, F4 clears the current BT profile, F6-F8 controls multimedia, Print Screen unlocks ZMK Studio and **Pause reboots into bootloader for updating firmware**.
 You can, of course, completely redesign the layout.
 
 ## Credits
