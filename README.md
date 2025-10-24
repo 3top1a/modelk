@@ -5,7 +5,7 @@
   <img src="https://github.com/3top1a/modelk/blob/pcb-artifacts/pcb/autogen/bottom.png" width="49%" />
 </div>
 
-Model K is a custom replacement controller designed to add wireless Bluetooth Low Energy functionality to classic IBM Model M keyboards. This drop-in controller lets you convert your vintage buckling spring keyboard to wireless without permanent modification, preserving the original controller.
+Modelk is a custom replacement controller designed to add wireless Bluetooth Low Energy functionality to classic IBM Model M keyboards. This drop-in controller lets you convert your vintage buckling spring keyboard to wireless without permanent modification, preserving the original controller.
 
 
 ## Features
@@ -34,7 +34,7 @@ The PCB is designed in KiCad 9. This repository has a CI/CD pipeline that automa
 See the automatically generated [iBOM](https://github.com/3top1a/modelk/blob/pcb-artifacts/pcb/autogen/ibom.html) (you will need to download the .html file and open it in your browser for now).
 
 For a full assembly, you will need:
-- 1x Model K PCB
+- 1x Modelk PCB
 - 2x 74HC595 shift register ICs, preferably with DIP-16 sockets (three for M122s)
 - 3x 150R resistors for the LEDs (if you have any)
 - 16x 1N4148 diodes (20 for M122s)
@@ -61,14 +61,14 @@ You will need:
 
 Start with a blank PCB and solder the 16 pin connector.
 
-![First picture of assembly, Model K PCB on the bottom with one connector soldered and the original controller on top](meta/assembly1.webp)
+![First picture of assembly, Modelk PCB on the bottom with one connector soldered and the original controller on top](meta/assembly1.webp)
 
 On the bottom you can see the board I am assembling (revision [0.10](https://github.com/3top1a/modelk/tree/0.10)), and on the top you can see the original controller that came with my keyboard. Because I am using Connfly connectors and not the original TE Trio-mate, I need to rotate them 180° as they work differently.
 
 > [!IMPORTANT]
 > If you are using **Connfly** connectors, make sure to rotate them 180°! This sounds counter-intuitive, but **your board will not work otherwise**!
 
-![Second picture of assembly, Model K PCB on the bottom with all connectors soldered and the original controller on top](meta/assembly2.webp)
+![Second picture of assembly, Modelk PCB on the bottom with all connectors soldered and the original controller on top](meta/assembly2.webp)
 
 As my keyboard comes with 16+8+4 connectors, I will solder the appropriate connectors, also rotated just like the 16 pin one.
 
@@ -93,7 +93,7 @@ All that is left is to solder the low profile sockets, solder pins to the nice!n
 
 Here you can see the finished board (without ICs, I forgot and spent 10 minutes debugging SPI because of it), a previous iteration (revision 0.3.1) and the original controller.
 
-![Model K controller inside a Model M keyboard](meta/assembly7.webp)
+![Modelk controller inside a Model M keyboard](meta/assembly7.webp)
 
 Now you just need to put it into the keyboard, secure the battery with kapton tape, and mount the original grounding wire.
 
